@@ -16,7 +16,7 @@ jobs:
 
       - name: Build and Push Docker Image
         env:
-          DOCKER_USERNAME: ${{ secrets.DOCKER_USER_NAME }}
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USER_NAME}}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_USER_PASSWORD }}
         run: |
           # Build your Docker image here
